@@ -1,14 +1,16 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import QRCode from 'react-qr-code'
+import QRCode from './GRCode'
 import theme from '../../themes'
 import GlobalStyles from './globalStyles'
+import Page from './components/Page'
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <GlobalStyles />
-    <header className="App-header">Hello</header>
-    <QRCode value={123} size={300} />
+    <Page>
+      <GlobalStyles />
+      <QRCode value={123} size={300} />
+    </Page>
   </ThemeProvider>
 )
 
