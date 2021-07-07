@@ -10,6 +10,11 @@
       "StackName": "amplify-greencoins-dev-11029",
       "StackId": "arn:aws:cloudformation:us-east-2:848378242224:stack/amplify-greencoins-dev-11029/87d98060-df78-11eb-9df0-064be342920c",
       "AmplifyAppId": "d2hdx1htcc5ar"
+    },
+    "categories": {
+      "auth": {
+        "greencoinsf5bb4bb8": {}
+      }
     }
   }
 }
