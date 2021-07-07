@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'flexboxgrid/css/flexboxgrid.min.css'
 import Routes from './Routes'
+// import UserProvider from './providers/UserProvider'
 
 import { ThemeProvider } from 'styled-components'
 import theme from './themes'
