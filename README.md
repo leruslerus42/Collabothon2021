@@ -15,3 +15,14 @@ npm i
 ```
 npm run start
 ```
+
+Components to style are located under:
+
+```
+src/routes/app
+```
+
+### Extensions to install
+
+Prettier
+Eslint

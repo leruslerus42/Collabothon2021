@@ -10,6 +10,9 @@ const Wrapper = styled.div`
   width: 400px;
 `
 
+/*
+  Generated based on user id.
+*/
 const QRCodeComponent = props => (
   <Wrapper>
     <BarCode {...props} />

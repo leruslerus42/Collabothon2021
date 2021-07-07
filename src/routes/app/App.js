@@ -7,6 +7,7 @@ import Page from '../components/Page'
 import Points from './Points'
 import LastEarnedPoints from './LastEarnedPoints'
 import Header from './Header'
+import Fetch from './Fetch'
 
 const TopWrapper = styled.div`
   display: flex;
