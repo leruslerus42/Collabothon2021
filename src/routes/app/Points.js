@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 
-const Points = () => {
+const Points = ({ value }) => {
   return (
     <div>
       <h2>Points</h2>
-      <div>1040</div>
+      <div>{value}</div>
     </div>
   )
 }
