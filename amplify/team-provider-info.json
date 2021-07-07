@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-greencoins-dev-11029-authRole",
+      "UnauthRoleArn": "arn:aws:iam::848378242224:role/amplify-greencoins-dev-11029-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::848378242224:role/amplify-greencoins-dev-11029-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-greencoins-dev-11029-deployment",
+      "UnauthRoleName": "amplify-greencoins-dev-11029-unauthRole",
+      "StackName": "amplify-greencoins-dev-11029",
+      "StackId": "arn:aws:cloudformation:us-east-2:848378242224:stack/amplify-greencoins-dev-11029/87d98060-df78-11eb-9df0-064be342920c",
+      "AmplifyAppId": "d2hdx1htcc5ar"
+    }
+  }
+}
