@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import QRCode from 'react-qr-code'
+import BarCode from 'react-barcode'
 
 const CodeWrapper = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ const CodeWrapper = styled.div`
 
 const QRCodeComponent = props => (
   <CodeWrapper>
-    <QRCode {...props} />
+    <BarCode {...props} />
   </CodeWrapper>
 )
 
