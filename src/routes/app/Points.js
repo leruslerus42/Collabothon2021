@@ -12,6 +12,10 @@ const Wrapper = styled.div`
   background-color: yellowgreen;
 `
 
+/*
+ Example usage:
+ <Points value={5000} />
+*/
 const Points = ({ value }) => {
   return (
     <Wrapper>

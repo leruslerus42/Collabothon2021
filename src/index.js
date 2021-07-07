@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'flexboxgrid/css/flexboxgrid.min.css'
-import App from './routes/app/App'
+import Routes from './Routes'
 
 import { ThemeProvider } from 'styled-components'
 import theme from './themes'
@@ -9,7 +9,7 @@ import theme from './themes'
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      <Routes />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')

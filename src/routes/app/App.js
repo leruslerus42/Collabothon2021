@@ -7,7 +7,7 @@ import Page from '../components/Page'
 import Points from './Points'
 import LastEarnedPoints from './LastEarnedPoints'
 import Header from './Header'
-import Fetch from './Fetch'
+// import Fetch from './Fetch'
 
 const TopWrapper = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ const App = () => (
       <GlobalStyles />
       {/* <Fetch /> */}
       <TopWrapper>
-        <Points value={1040} />
+        <Points value={5000} />
         <BarCode value={123456789} size={300} />
       </TopWrapper>
       <LastEarnedPoints />
