@@ -8,7 +8,7 @@ const Wrapper = styled.header`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #fff;
 `
 
 const Header = () => {
