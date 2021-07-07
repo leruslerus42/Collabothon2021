@@ -19,7 +19,7 @@ const mockPoints = [
     points: 100,
   },
   {
-    product: 'Almond Milk',
+    product: 'Peanut Butter',
     points: 100,
   },
 ]
@@ -27,7 +27,7 @@ const mockPoints = [
 const Points = ({ points }) => {
   return (
     <Wrapper>
-      <div>Last earned points</div>
+      <h2>Last earned points</h2>
       {mockPoints.map(item => (
         <div key={item.product}>
           {item.product} - {item.points}

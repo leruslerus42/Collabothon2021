@@ -6,6 +6,7 @@ import GlobalStyles from './globalStyles'
 import Page from '../components/Page'
 import Points from './Points'
 import LastEarnedPoints from './LastEarnedPoints'
+import Header from './Header'
 
 const TopWrapper = styled.div`
   display: flex;
@@ -17,6 +18,7 @@ const TopWrapper = styled.div`
 
 const App = () => (
   <ThemeProvider theme={theme}>
+    <Header />
     <Page>
       <GlobalStyles />
       {/* <Fetch /> */}
