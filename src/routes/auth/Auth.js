@@ -4,8 +4,8 @@ import styled from 'styled-components/macro'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
