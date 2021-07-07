@@ -5,6 +5,7 @@ import theme from '../../themes'
 import GlobalStyles from './globalStyles'
 import Page from '../components/Page'
 import Points from './Points'
+import LastEarnedPoints from './LastEarnedPoints'
 
 const TopWrapper = styled.div`
   display: flex;
@@ -23,6 +24,7 @@ const App = () => (
         <Points value={1040} />
         <BarCode value={123456789} size={300} />
       </TopWrapper>
+      <LastEarnedPoints />
     </Page>
   </ThemeProvider>
 )
