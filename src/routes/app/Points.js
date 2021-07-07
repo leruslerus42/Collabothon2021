@@ -10,6 +10,8 @@ const Wrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background-color: yellowgreen;
+  border-radius: 20px;
+  margin: 20px;
 `
 
 /*
