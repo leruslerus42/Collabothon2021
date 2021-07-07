@@ -10,7 +10,8 @@ const TopWrapper = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  background-color: yellowgreen;
+  justify-content: center;
+  align-items: center;
 `
 
 const App = () => (

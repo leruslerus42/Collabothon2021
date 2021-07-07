@@ -2,17 +2,18 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import BarCode from 'react-barcode'
 
-const CodeWrapper = styled.div`
+const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  height: 400px;
+  width: 400px;
 `
 
 const QRCodeComponent = props => (
-  <CodeWrapper>
+  <Wrapper>
     <BarCode {...props} />
-  </CodeWrapper>
+  </Wrapper>
 )
 
 export default QRCodeComponent
