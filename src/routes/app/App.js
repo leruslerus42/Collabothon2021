@@ -1,7 +1,6 @@
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
+import styled from 'styled-components'
 import BarCode from './BarCode'
-import theme from '../../themes'
 import GlobalStyles from './globalStyles'
 import Page from '../components/Page'
 import Points from './Points'
@@ -18,7 +17,7 @@ const TopWrapper = styled.div`
 `
 
 const App = () => (
-  <ThemeProvider theme={theme}>
+  <div>
     <Header />
     <Page>
       <GlobalStyles />
@@ -29,7 +28,7 @@ const App = () => (
       </TopWrapper>
       <LastEarnedPoints />
     </Page>
-  </ThemeProvider>
+  </div>
 )
 
 export default App

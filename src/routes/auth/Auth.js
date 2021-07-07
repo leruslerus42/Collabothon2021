@@ -1,26 +1,19 @@
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
-import BarCode from './BarCode'
-import theme from '../../themes'
-import GlobalStyles from './globalStyles'
-import Page from '../components/Page'
-import Points from './Points'
-import LastEarnedPoints from './LastEarnedPoints'
-import Header from './Header'
-import Fetch from './Fetch'
+import styled from 'styled-components/macro'
 
-const TopWrapper = styled.div`
+const Wrapper = styled.div`
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  background-color: yellowgreen;
 `
 
-const App = () => (
-  <ThemeProvider theme={theme}>
-    
-  </ThemeProvider>
-)
+const Login = ({ value }) => {
+  return <Wrapper>Login page</Wrapper>
+}
 
-export default App
+export default Login

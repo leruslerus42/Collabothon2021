@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import App from './routes/app/App'
+import Auth from './routes/auth/Auth'
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -20,10 +21,7 @@ export default function BasicExample() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/auth">Login</Link>
           </li>
         </ul>
 
@@ -39,6 +37,9 @@ export default function BasicExample() {
         <Switch>
           <Route exact path="/">
             <App />
+          </Route>
+          <Route exact path="/auth">
+            <Auth />
           </Route>
         </Switch>
       </div>
