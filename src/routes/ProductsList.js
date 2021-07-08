@@ -63,7 +63,7 @@ const App = () => (
   <div>
     <Header />
     <Page>
-      <div>Product</div>
+      <h2>Products list</h2>
 
       {mockPoints.map(item => (
         <div key={item.product}>
