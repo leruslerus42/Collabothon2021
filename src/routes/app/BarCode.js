@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   cursor: pointer;
 `
 
-const ModalWrapper = styled.div`
+const ModalWrapper = styled(Modal)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,17 +30,15 @@ const QRCodeComponent = props => {
       <div onClick={() => setIsOpen(!isOpen)}>
         <BarCode {...props} />
       </div>
-      <Modal
-        onClick={() => setIsOpen(!isOpen)}
+      <ModalWrapper
+        onClick={() => setIsOpen(false)}
         open={isOpen}
         onClose={() => setIsOpen(false)}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
       >
-        <ModalWrapper>
-          <BarCode width={2} {...props} />
-        </ModalWrapper>
-      </Modal>
+        <BarCode width={5} height={400} {...props} />
+      </ModalWrapper>
     </Wrapper>
   )
 }

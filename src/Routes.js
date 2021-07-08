@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import App from './routes/app/App'
 import Auth from './routes/auth/Auth'
 
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+// import SignIn from './routes/SignIn'
+// import SignUp from './routes/SignUp'
+import ProductsList from './routes/ProductsList'
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -19,23 +20,6 @@ export default function BasicExample() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/auth">Login</Link>
-          </li>
-          <li>
-            <Link to="/signIn">Sign in</Link>
-          </li>
-          <li>
-            <Link to="/signUp">Sign up</Link>
-          </li>
-        </ul>
-
-        <hr />
-
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -50,11 +34,14 @@ export default function BasicExample() {
           <Route exact path="/auth">
             <Auth />
           </Route>
-          <Route exact path="/signIn">
+          {/* <Route exact path="/signIn">
             <SignIn />
           </Route>
           <Route exact path="/signUp">
             <SignUp />
+          </Route> */}
+          <Route exact path="/productsList">
+            <ProductsList />
           </Route>
         </Switch>
       </div>
