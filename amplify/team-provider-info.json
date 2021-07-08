@@ -16,5 +16,23 @@
         "greencoins3bcdea29": {}
       }
     }
+  },
+  "greencoins": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-greencoins-greencoins-35450-authRole",
+      "UnauthRoleArn": "arn:aws:iam::848378242224:role/amplify-greencoins-greencoins-35450-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::848378242224:role/amplify-greencoins-greencoins-35450-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-greencoins-greencoins-35450-deployment",
+      "UnauthRoleName": "amplify-greencoins-greencoins-35450-unauthRole",
+      "StackName": "amplify-greencoins-greencoins-35450",
+      "StackId": "arn:aws:cloudformation:us-east-2:848378242224:stack/amplify-greencoins-greencoins-35450/7c5b2ec0-df8f-11eb-a3ca-064830c498bc",
+      "AmplifyAppId": "d2bd7v14faxfnw"
+    },
+    "categories": {
+      "auth": {
+        "greencoins3bcdea29": {}
+      }
+    }
   }
 }

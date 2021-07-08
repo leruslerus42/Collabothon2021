@@ -7,6 +7,11 @@ import Points from './Points'
 import LastEarnedPoints from './LastEarnedPoints'
 import Header from './Header'
 // import Fetch from './Fetch'
+import Amplify from 'aws-amplify'
+import awsconfig from '../../aws-exports'
+import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react'
+
+Amplify.configure(awsconfig)
 
 const TopWrapper = styled.div`
   display: flex;
@@ -20,6 +25,7 @@ const App = () => (
   <div>
     <Header />
     <Page>
+      <AmplifySignOut />
       <GlobalStyles />
       {/* <Fetch /> */}
       <TopWrapper>
@@ -31,4 +37,4 @@ const App = () => (
   </div>
 )
 
-export default App
+export default withAuthenticator(App)
