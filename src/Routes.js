@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import App from './routes/app/App'
 import Auth from './routes/auth/Auth'
 
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+import SignIn from './routes/SignIn'
+import SignUp from './routes/SignUp'
 import ProductsList from './routes/ProductsList'
 
 // This site has 3 pages, all of which are rendered
