@@ -20,26 +20,6 @@ export default function BasicExample() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/auth">Login</Link>
-          </li>
-          <li>
-            <Link to="/signIn">Sign in</Link>
-          </li>
-          <li>
-            <Link to="/signUp">Sign up</Link>
-          </li>
-          <li>
-            <Link to="/productsList">Product list</Link>
-          </li>
-        </ul>
-
-        <hr />
-
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
