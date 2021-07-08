@@ -50,9 +50,9 @@ export default function ControlledOpenSelect() {
           <MenuItem>
             <Link to="/">Home</Link>
           </MenuItem>
-          <MenuItem>
+          {/* <MenuItem>
             <Link to="/auth">Login</Link>
-          </MenuItem>
+          </MenuItem> */}
           {/* <MenuItem>
             <Link to="/signIn">Sign in</Link>
           </MenuItem>
