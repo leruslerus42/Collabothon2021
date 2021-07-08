@@ -10,11 +10,11 @@ import theme from './themes'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <AmplifyAuthenticator> */}
-    <ThemeProvider theme={theme}>
-      <Routes />
-    </ThemeProvider>
-    {/* </AmplifyAuthenticator> */}
+    <AmplifyAuthenticator>
+      <ThemeProvider theme={theme}>
+        <Routes />
+      </ThemeProvider>
+    </AmplifyAuthenticator>
   </React.StrictMode>,
   document.getElementById('root')
 )
