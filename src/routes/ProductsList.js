@@ -3,21 +3,74 @@ import styled from 'styled-components'
 import Page from '../components/Page'
 
 import Header from '../components/Header'
-// import Fetch from './Fetch'
 
-const TopWrapper = styled.div`
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-`
+const mockPoints = [
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+
+  {
+    product: 'Almond Milk',
+    points: 100,
+  },
+  {
+    product: 'Peanut Butter',
+    points: 100,
+  },
+]
 
 const App = () => (
   <div>
     <Header />
     <Page>
       <div>Product</div>
+
+      {mockPoints.map(item => (
+        <div key={item.product}>
+          Product: {item.product} Points: {item.points}
+        </div>
+      ))}
     </Page>
   </div>
 )

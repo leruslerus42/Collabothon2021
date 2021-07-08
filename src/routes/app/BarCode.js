@@ -31,7 +31,7 @@ const QRCodeComponent = props => {
         <BarCode {...props} />
       </div>
       <ModalWrapper
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(false)}
         open={isOpen}
         onClose={() => setIsOpen(false)}
         aria-labelledby="simple-modal-title"
