@@ -5,6 +5,7 @@ import Auth from './routes/auth/Auth'
 
 import SignIn from './SignIn'
 import SignUp from './SignUp'
+import ProductsList from './routes/ProductsList'
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -32,6 +33,9 @@ export default function BasicExample() {
           <li>
             <Link to="/signUp">Sign up</Link>
           </li>
+          <li>
+            <Link to="/productsList">Product list</Link>
+          </li>
         </ul>
 
         <hr />
@@ -55,6 +59,9 @@ export default function BasicExample() {
           </Route>
           <Route exact path="/signUp">
             <SignUp />
+          </Route>
+          <Route exact path="/productsList">
+            <ProductsList />
           </Route>
         </Switch>
       </div>
