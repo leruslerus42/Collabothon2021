@@ -1,10 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import App from './routes/app/App'
-import Auth from './routes/auth/Auth'
 
-// import SignIn from './routes/SignIn'
-// import SignUp from './routes/SignUp'
 import ProductsList from './routes/ProductsList'
 
 // This site has 3 pages, all of which are rendered
@@ -34,12 +31,6 @@ export default function BasicExample() {
           <Route exact path="/auth">
             <Auth />
           </Route>
-          {/* <Route exact path="/signIn">
-            <SignIn />
-          </Route>
-          <Route exact path="/signUp">
-            <SignUp />
-          </Route> */}
           <Route exact path="/productsList">
             <ProductsList />
           </Route>
