@@ -17,8 +17,8 @@ const TopWrapper = styled.div`
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 `
 
 const App = () => (

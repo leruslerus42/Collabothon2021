@@ -28,9 +28,6 @@ export default function BasicExample() {
           <Route exact path="/">
             <App />
           </Route>
-          <Route exact path="/auth">
-            <Auth />
-          </Route>
           <Route exact path="/productsList">
             <ProductsList />
           </Route>
